@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "current_feature": "bugfix-434",
+  "features": [
+    {
+      "id": "bugfix-434",
+      "title": "Fix ArgumentError in build_metrics during threshold tuning",
+      "status": "done",
+      "acceptance": [
+        "build_metrics function handles empty generators gracefully",
+        "demo_threshold_tuning completes without crashing",
+        "Metrics computed correctly for all threshold scenarios",
+        "No test failures"
+      ],
+      "implementation": [
+        "phases/02-ml-fundamentals/03-logistic-regression/code/main.jl"
+      ],
+      "tests": [
+        "test_build_metrics_fix.jl"
+      ]
+    },
+    {
+      "id": "demo_logreg_basic",
+      "title": "Basic Logistic Regression Demo",
+      "status": "in_progress",
+      "acceptance": [
+        "Interactive logistic regression demo that loads synthetic data",
+        "Model training with random initialization",
+        "Prediction on test data with configurable thresholds",
+        "Visual output of results"
+      ],
+      "implementation": [
+        "demo_logreg.py"
+      ],
+      "tests": [
+        "demo_logreg_test.py"
+      ]
+    },
+    {
+      "id": "ml_fundamentals_phase2",
+      "title": "ML Fundamentals Phase 2 Complete",
+      "status": "planned",
+      "acceptance": [
+        "Complete phase 2 materials covering logistic regression",
+        "All educational content organized and accessible",
+        "Hands-on implementation exercises",
+        "Verification tests for all concepts"
+      ],
+      "implementation": [],
+      "tests": []
+    }
+  ]
+}

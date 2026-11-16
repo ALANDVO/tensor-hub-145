@@ -1,22 +1,16 @@
 {
   "schema_version": 1,
-  "current_feature": "logistic-regression-demo-bugfix",
+  "current_feature": "continue-implementation",
   "features": [
     {
-      "id": "logistic-regression-demo-bugfix",
-      "title": "Logistic Regression demo with safe build_metrics",
-      "status": "done",
+      "id": "continue-implementation",
+      "title": "Continue implementation and resolve known failures",
+      "status": "in_progress",
       "acceptance": [
-        "Demo script runs without errors",
-        "Edge-case predictions (all zeros) produce correct metrics without crash",
-        "Output includes accuracy, precision, recall, f1 for test case"
+        "Run checks, fix failures, and implement the next planned feature"
       ],
-      "implementation": [
-        "src/tensorhub/demo_logreg.py"
-      ],
-      "tests": [
-        "tests/demo_logreg_test.py"
-      ]
+      "implementation": [],
+      "tests": []
     }
   ]
 }
