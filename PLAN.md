@@ -4,22 +4,16 @@ Each round completes one feature or repair. Future items are planned, not implem
 
 ## Current round
 
-logistic-regression-demo-bugfix
+continue-implementation
 
 ## Roadmap
 
-### logistic-regression-demo-bugfix — Logistic Regression demo with safe build_metrics
+### continue-implementation — Continue implementation and resolve known failures
 
-Status: done
+Status: in_progress
 
 Acceptance:
-- Demo script runs without errors
-- Edge-case predictions (all zeros) produce correct metrics without crash
-- Output includes accuracy, precision, recall, f1 for test case
-
-Implementation: `src/tensorhub/demo_logreg.py`
-
-Tests: `tests/demo_logreg_test.py`
+- Run checks, fix failures, and implement the next planned feature
 
 ---
 

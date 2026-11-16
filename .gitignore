@@ -1,14 +1,67 @@
-
+# Project-specific ignores
 .turbo/
 .env
 .env.local
 .env.*.local
-**/data/media/
+
+# Julia-specific ignores
+.julia/
+*.ji
+*.so
+*.dll
+*.dylib
+*.o
+*.a
+src/*.o
+src/*.so
+src/*.dll
+src/*.dylib
+src/*.a
+
+# Build artifacts
+build/
+dist/
+target/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Package manager
 venv/
 .venv/
-node_modules/
-dist/
+ENV/
+env/
+
+# Data and media
+**/data/media/
+*.hdf5
+*.h5
+*.npy
+*.npz
+
+# Python virtual environment
+venv/
+.pytest_cache/
 __pycache__/
+*.py[cod]
+*$py.class
+*dataset.pickle
+.venv*/
+node_modules/
 *.pyc
 *.db
 *.db-wal
