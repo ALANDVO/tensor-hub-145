@@ -10,10 +10,14 @@ continue-implementation
 
 ### continue-implementation — Continue implementation and resolve known failures
 
-Status: in_progress
+Status: done
 
 Acceptance:
 - Run checks, fix failures, and implement the next planned feature
+
+Implementation: `phases/02-ml-fundamentals/03-logistic-regression/code/main.jl - build_metrics function fixed with init=0`
+
+Tests: `test_build_metrics_fix.jl - demonstrates bug fix`
 
 ---
 
